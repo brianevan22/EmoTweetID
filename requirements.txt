@@ -1,0 +1,18 @@
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+pyarrow
+joblib
+tqdm
+plotly
+streamlit>=1.35
+# tahap IndoBERTweet dan topik (skrip 02 tanpa --skip-bert, 03 jika model terbaik BERT, 04)
+torch
+transformers
+sentence-transformers
+bertopic
+umap-learn
+hdbscan
+gensim

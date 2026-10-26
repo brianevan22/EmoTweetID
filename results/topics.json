@@ -1,0 +1,711 @@
+[
+  {
+    "topic": -1,
+    "count": 39186,
+    "words": [],
+    "by_emotion": {
+      "anger": 9239,
+      "disgust": 2611,
+      "fear": 5137,
+      "joy": 9066,
+      "sadness": 8852,
+      "surprise": 4281
+    }
+  },
+  {
+    "topic": 0,
+    "count": 19917,
+    "words": [
+      "tidur",
+      "gua",
+      "banget",
+      "kek",
+      "sakit",
+      "lagi",
+      "ni",
+      "ya",
+      "kenapa",
+      "ga"
+    ],
+    "by_emotion": {
+      "anger": 4241,
+      "disgust": 1865,
+      "fear": 3081,
+      "joy": 3779,
+      "sadness": 4592,
+      "surprise": 2359
+    }
+  },
+  {
+    "topic": 1,
+    "count": 5363,
+    "words": [
+      "na",
+      "ko",
+      "ka",
+      "ng",
+      "ang",
+      "indonesia",
+      "lang",
+      "yung",
+      "sa",
+      "mo"
+    ],
+    "by_emotion": {
+      "anger": 1306,
+      "disgust": 277,
+      "fear": 849,
+      "joy": 1664,
+      "sadness": 878,
+      "surprise": 389
+    }
+  },
+  {
+    "topic": 2,
+    "count": 4505,
+    "words": [
+      "2020",
+      "tahun",
+      "2019",
+      "2021",
+      "baru",
+      "year",
+      "semoga",
+      "akhir",
+      "365",
+      "banyak"
+    ],
+    "by_emotion": {
+      "anger": 1021,
+      "disgust": 185,
+      "fear": 494,
+      "joy": 842,
+      "sadness": 1534,
+      "surprise": 429
+    }
+  },
+  {
+    "topic": 3,
+    "count": 2447,
+    "words": [
+      "duit",
+      "akun",
+      "kaya",
+      "beli",
+      "uang",
+      "harga",
+      "mahal",
+      "kalo",
+      "chat",
+      "mau"
+    ],
+    "by_emotion": {
+      "anger": 493,
+      "disgust": 221,
+      "fear": 438,
+      "joy": 401,
+      "sadness": 523,
+      "surprise": 371
+    }
+  },
+  {
+    "topic": 4,
+    "count": 2429,
+    "words": [
+      "cinta",
+      "hidup",
+      "pacar",
+      "orang",
+      "pacaran",
+      "tak",
+      "nikah",
+      "perempuan",
+      "sama",
+      "tidak"
+    ],
+    "by_emotion": {
+      "anger": 487,
+      "disgust": 106,
+      "fear": 291,
+      "joy": 342,
+      "sadness": 983,
+      "surprise": 220
+    }
+  },
+  {
+    "topic": 5,
+    "count": 1886,
+    "words": [
+      "tweet",
+      "twitter",
+      "video",
+      "foto",
+      "12",
+      "00",
+      "2019",
+      "buka",
+      "instagram",
+      "gambar"
+    ],
+    "by_emotion": {
+      "anger": 435,
+      "disgust": 177,
+      "fear": 165,
+      "joy": 400,
+      "sadness": 343,
+      "surprise": 366
+    }
+  },
+  {
+    "topic": 6,
+    "count": 1642,
+    "words": [
+      "lagu",
+      "konser",
+      "film",
+      "album",
+      "nonton",
+      "huhu",
+      "tv",
+      "nyanyi",
+      "suara",
+      "drama"
+    ],
+    "by_emotion": {
+      "anger": 441,
+      "disgust": 129,
+      "fear": 274,
+      "joy": 258,
+      "sadness": 341,
+      "surprise": 199
+    }
+  },
+  {
+    "topic": 7,
+    "count": 1307,
+    "words": [
+      "hujan",
+      "malam",
+      "panas",
+      "dingin",
+      "lampu",
+      "langit",
+      "angin",
+      "bintang",
+      "ni",
+      "bulan"
+    ],
+    "by_emotion": {
+      "anger": 232,
+      "disgust": 95,
+      "fear": 336,
+      "joy": 250,
+      "sadness": 238,
+      "surprise": 156
+    }
+  },
+  {
+    "topic": 8,
+    "count": 1098,
+    "words": [
+      "makan",
+      "kopi",
+      "ayam",
+      "teh",
+      "masak",
+      "minum",
+      "makanan",
+      "enak",
+      "pengen",
+      "tapi"
+    ],
+    "by_emotion": {
+      "anger": 289,
+      "disgust": 95,
+      "fear": 153,
+      "joy": 274,
+      "sadness": 183,
+      "surprise": 104
+    }
+  },
+  {
+    "topic": 9,
+    "count": 756,
+    "words": [
+      "gigi",
+      "mata",
+      "muka",
+      "otak",
+      "sakit",
+      "kepala",
+      "wajah",
+      "pake",
+      "mukanya",
+      "kulit"
+    ],
+    "by_emotion": {
+      "anger": 181,
+      "disgust": 56,
+      "fear": 87,
+      "joy": 119,
+      "sadness": 198,
+      "surprise": 115
+    }
+  },
+  {
+    "topic": 10,
+    "count": 671,
+    "words": [
+      "motor",
+      "naik",
+      "kereta",
+      "tiket",
+      "to",
+      "mobil",
+      "jalan",
+      "nonton",
+      "lalu",
+      "bawa"
+    ],
+    "by_emotion": {
+      "anger": 125,
+      "disgust": 38,
+      "fear": 163,
+      "joy": 142,
+      "sadness": 120,
+      "surprise": 83
+    }
+  },
+  {
+    "topic": 11,
+    "count": 667,
+    "words": [
+      "sekolah",
+      "kuliah",
+      "kelas",
+      "exam",
+      "nak",
+      "masuk",
+      "ujian",
+      "belajar",
+      "tak",
+      "jadi"
+    ],
+    "by_emotion": {
+      "anger": 145,
+      "disgust": 43,
+      "fear": 75,
+      "joy": 110,
+      "sadness": 191,
+      "surprise": 103
+    }
+  },
+  {
+    "topic": 12,
+    "count": 605,
+    "words": [
+      "mandi",
+      "air",
+      "ikan",
+      "pantai",
+      "laut",
+      "kamar",
+      "sungai",
+      "masuk",
+      "kali",
+      "kalau"
+    ],
+    "by_emotion": {
+      "anger": 195,
+      "disgust": 44,
+      "fear": 91,
+      "joy": 106,
+      "sadness": 104,
+      "surprise": 65
+    }
+  },
+  {
+    "topic": 13,
+    "count": 602,
+    "words": [
+      "vote",
+      "pemerintah",
+      "fpi",
+      "negara",
+      "politik",
+      "presiden",
+      "menteri",
+      "hukum",
+      "pak",
+      "bos"
+    ],
+    "by_emotion": {
+      "anger": 159,
+      "disgust": 20,
+      "fear": 95,
+      "joy": 123,
+      "sadness": 148,
+      "surprise": 57
+    }
+  },
+  {
+    "topic": 14,
+    "count": 456,
+    "words": [
+      "rambut",
+      "warna",
+      "black",
+      "item",
+      "chanyeol",
+      "baekhyun",
+      "panjang",
+      "pendek",
+      "kalo",
+      "sama"
+    ],
+    "by_emotion": {
+      "anger": 91,
+      "disgust": 58,
+      "fear": 53,
+      "joy": 71,
+      "sadness": 74,
+      "surprise": 109
+    }
+  },
+  {
+    "topic": 15,
+    "count": 431,
+    "words": [
+      "obat",
+      "covid",
+      "19",
+      "pandemi",
+      "dr",
+      "ni",
+      "medina",
+      "kesehatan",
+      "zein",
+      "nak"
+    ],
+    "by_emotion": {
+      "anger": 79,
+      "disgust": 17,
+      "fear": 108,
+      "joy": 60,
+      "sadness": 102,
+      "surprise": 65
+    }
+  },
+  {
+    "topic": 16,
+    "count": 409,
+    "words": [
+      "baju",
+      "jual",
+      "cewek",
+      "amp",
+      "kaki",
+      "gt",
+      "hey",
+      "yo",
+      "pake",
+      "beli"
+    ],
+    "by_emotion": {
+      "anger": 155,
+      "disgust": 23,
+      "fear": 36,
+      "joy": 77,
+      "sadness": 77,
+      "surprise": 41
+    }
+  },
+  {
+    "topic": 17,
+    "count": 355,
+    "words": [
+      "bismillah",
+      "fpi",
+      "al",
+      "lt",
+      "gt",
+      "allah",
+      "agama",
+      "kepada",
+      "pemerintah",
+      "hr"
+    ],
+    "by_emotion": {
+      "anger": 156,
+      "disgust": 5,
+      "fear": 59,
+      "joy": 64,
+      "sadness": 44,
+      "surprise": 27
+    }
+  },
+  {
+    "topic": 18,
+    "count": 342,
+    "words": [
+      "pc",
+      "hp",
+      "listrik",
+      "harga",
+      "beli",
+      "ga",
+      "rusak",
+      "lagi",
+      "mau",
+      "buka"
+    ],
+    "by_emotion": {
+      "anger": 92,
+      "disgust": 27,
+      "fear": 50,
+      "joy": 68,
+      "sadness": 67,
+      "surprise": 38
+    }
+  },
+  {
+    "topic": 19,
+    "count": 336,
+    "words": [
+      "wa",
+      "00",
+      "rp",
+      "bar",
+      "order",
+      "12",
+      "gt",
+      "30",
+      "21",
+      "no"
+    ],
+    "by_emotion": {
+      "anger": 86,
+      "disgust": 5,
+      "fear": 27,
+      "joy": 174,
+      "sadness": 17,
+      "surprise": 27
+    }
+  },
+  {
+    "topic": 20,
+    "count": 292,
+    "words": [
+      "trending",
+      "iklan",
+      "trend",
+      "promo",
+      "beli",
+      "udh",
+      "bisa",
+      "kenapa",
+      "buat",
+      "aja"
+    ],
+    "by_emotion": {
+      "anger": 61,
+      "disgust": 13,
+      "fear": 39,
+      "joy": 46,
+      "sadness": 83,
+      "surprise": 50
+    }
+  },
+  {
+    "topic": 21,
+    "count": 224,
+    "words": [
+      "bau",
+      "ni",
+      "tahan",
+      "berhenti",
+      "tapi",
+      "pakai",
+      "cara",
+      "dah",
+      "naik",
+      "org"
+    ],
+    "by_emotion": {
+      "anger": 59,
+      "disgust": 20,
+      "fear": 32,
+      "joy": 38,
+      "sadness": 48,
+      "surprise": 27
+    }
+  },
+  {
+    "topic": 22,
+    "count": 129,
+    "words": [
+      "bunga",
+      "buah",
+      "blom",
+      "beli",
+      "tumbuh",
+      "batu",
+      "harga",
+      "tentang",
+      "klik",
+      "indah"
+    ],
+    "by_emotion": {
+      "anger": 31,
+      "disgust": 7,
+      "fear": 15,
+      "joy": 37,
+      "sadness": 30,
+      "surprise": 9
+    }
+  },
+  {
+    "topic": 23,
+    "count": 127,
+    "words": [
+      "polisi",
+      "anggota",
+      "polres",
+      "warga",
+      "medina",
+      "malam",
+      "kasus",
+      "pelaku",
+      "12",
+      "zein"
+    ],
+    "by_emotion": {
+      "anger": 40,
+      "disgust": 6,
+      "fear": 16,
+      "joy": 29,
+      "sadness": 14,
+      "surprise": 22
+    }
+  },
+  {
+    "topic": 24,
+    "count": 122,
+    "words": [
+      "baca",
+      "nonton",
+      "cover",
+      "mau",
+      "tampil",
+      "style",
+      "apa",
+      "keren",
+      "bbm",
+      "agak"
+    ],
+    "by_emotion": {
+      "anger": 19,
+      "disgust": 10,
+      "fear": 16,
+      "joy": 35,
+      "sadness": 23,
+      "surprise": 19
+    }
+  },
+  {
+    "topic": 25,
+    "count": 99,
+    "words": [
+      "berat",
+      "badan",
+      "turun",
+      "kurus",
+      "naik",
+      "bb",
+      "makan",
+      "beban",
+      "tingkat",
+      "gue"
+    ],
+    "by_emotion": {
+      "anger": 34,
+      "disgust": 7,
+      "fear": 14,
+      "joy": 7,
+      "sadness": 24,
+      "surprise": 13
+    }
+  },
+  {
+    "topic": 26,
+    "count": 92,
+    "words": [
+      "keluarga",
+      "besar",
+      "acara",
+      "waktu",
+      "sekali",
+      "hidup",
+      "sama",
+      "beban",
+      "bersama",
+      "gapapa"
+    ],
+    "by_emotion": {
+      "anger": 8,
+      "disgust": 1,
+      "fear": 5,
+      "joy": 8,
+      "sadness": 70,
+      "surprise": 0
+    }
+  },
+  {
+    "topic": 27,
+    "count": 71,
+    "words": [
+      "stress",
+      "wot",
+      "bawak",
+      "nangis",
+      "gue",
+      "pkl",
+      "lain",
+      "bikin",
+      "bgt",
+      "ni"
+    ],
+    "by_emotion": {
+      "anger": 19,
+      "disgust": 13,
+      "fear": 5,
+      "joy": 9,
+      "sadness": 17,
+      "surprise": 8
+    }
+  },
+  {
+    "topic": 28,
+    "count": 60,
+    "words": [
+      "gais",
+      "laki",
+      "bikin",
+      "jom",
+      "tp",
+      "terhadap",
+      "depan",
+      "sama",
+      "dah",
+      "aja"
+    ],
+    "by_emotion": {
+      "anger": 12,
+      "disgust": 6,
+      "fear": 7,
+      "joy": 18,
+      "sadness": 14,
+      "surprise": 3
+    }
+  }
+]
