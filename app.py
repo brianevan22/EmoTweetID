@@ -241,6 +241,7 @@ elif page == "Distribusi emosi korpus":
                                labels=dict(z="Skor z log-odds", word="")))
 
 # ------------------------------------------------------------------ H3
+# ------------------------------------------------------------------ H3
 elif page == "H3 · Topik per emosi":
     st.title("H3 · Topik dominan per emosi")
     h3 = need(jload("h3.json"), "04_topics.py")
@@ -254,12 +255,19 @@ elif page == "H3 · Topik per emosi":
     c[3].metric("Koherensi c_v", f"{h3['coherence_cv']:.3f}" if h3.get("coherence_cv") else "–")
     st.caption(f"{h3['n_topics']} topik; {h3['outlier_share']:.1%} tweet tidak masuk topik (outlier) dan dikeluarkan dari uji. Kriteria ukuran efek mengikuti konvensi Cohen untuk tabel besar dan hanya pedoman kasar.")
     topics = [t for t in tj if t["topic"] != -1]
-    label = {t["topic"]: f"T{t['topic']}: " + ", ".join(t["words"][:3]) for t in topics}
-    z = rs.rename(columns=lambda x: label.get(int(x), x))
+    
+    # PERBAIKAN: Buat mapping label dengan kunci bertipe int maupun str agar aman saat rename kolom
+    label = {}
+    for t in topics:
+        text = f"T{t['topic']}: " + ", ".join(t["words"][:3])
+        label[t["topic"]] = text
+        label[str(t["topic"])] = text
+
+    z = rs.rename(columns=label)
     st.plotly_chart(px.imshow(z.round(1), aspect="auto", color_continuous_scale="RdBu_r", color_continuous_midpoint=0, text_auto=".1f",
                               title="Residual terstandar emosi × topik (merah: lebih sering dari harapan; biru: lebih jarang)").update_layout(height=520))
     prop = (ct.drop(columns=["-1"], errors="ignore").T / ct.drop(columns=["-1"], errors="ignore").sum(axis=1)).T
-    st.plotly_chart(px.imshow(prop.rename(columns=lambda x: label.get(int(x), x)).round(3), aspect="auto", color_continuous_scale="Viridis",
+    st.plotly_chart(px.imshow(prop.rename(columns=label).round(3), aspect="auto", color_continuous_scale="Viridis",
                               title="Proporsi topik di dalam tiap emosi").update_layout(height=450))
     sel = st.selectbox("Rincian topik", [t["topic"] for t in topics], format_func=lambda t: label[t])
     t = next(x for x in topics if x["topic"] == sel)
@@ -273,7 +281,6 @@ elif page == "H3 · Topik per emosi":
         mp["topic"] = mp.topic.astype(str)
         st.plotly_chart(px.scatter(mp, x="x", y="y", color=by, hover_data=["tweet"], opacity=0.6,
                                    color_discrete_map=COL if by == "label" else None, title="Peta topik (UMAP 2D, sampel)").update_layout(height=560))
-
 # ------------------------------------------------------------------ Prediksi
 elif page == "Coba prediksi":
     st.title("Deteksi emosi dari teks")
